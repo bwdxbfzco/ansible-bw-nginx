@@ -1,0 +1,7 @@
+---
+# tasks file for nginx server installation
+ - name: Configure Nginx 
+   become: true
+   hosts: all
+   roles: 
+    - geerlingguy.nginx
